@@ -14,11 +14,11 @@ export default function Header() {
                 </div>
 
                 <nav>
-                    <a href={"#main"} id={"main"} className={"active navA"}>Главная</a>
-                    <a href={"#constructor"} id={"constructor"}  className={"navA"}>Конструктор</a>
-                    <a href={"#ourworks"} id={"ourworks"}  className={"navA"}>Наши работы</a>
-                    <a href={"#aboutus"} id={"aboutus"}  className={"navA"}>О нас</a>
-                    <a href={"#curses"} id={"curses"}  className={"navA"}>Курсы</a>
+                    <a href={"#"} id={"main"} className={"active navA"}>Главная</a>
+                    <a href={"#"} id={"constructor"}  className={"navA"}>Конструктор</a>
+                    <a href={"#"} id={"ourworks"}  className={"navA"}>Наши работы</a>
+                    <a href={"#"} id={"aboutus"}  className={"navA"}>О нас</a>
+                    <a href={"#"} id={"curses"}  className={"navA"}>Курсы</a>
                 </nav>
             </div>
 

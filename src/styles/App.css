@@ -62,3 +62,14 @@
 body{
   color: var(--textColor)
 }
+
+.blueBorrder{
+  border: var(--var-maincolor) 3px solid;
+  border-radius: 30px;
+}
+
+.blueInside{
+  border: var(--var-maincolor) 3px solid;
+  background: var(--var-maincolor);
+  border-radius: 30px;
+}
