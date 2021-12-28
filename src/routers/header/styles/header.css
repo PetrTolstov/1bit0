@@ -31,20 +31,18 @@ nav{
 }
 
 .navbar a.active{
-
-
     color: #fff;
     background: var(--var-maincolor);
     box-shadow: 1px 1px 2px var(--firstShadow), -1px -1px 2px var(--secondShadow ), inset -5px 5px 10px var(--thirdShadow), inset 5px -5px 10px var(--thouthShadow), inset -5px -5px 10px var(--fifthShadow), inset 5px 5px 13px var(--sixthShadow);
     border-radius: 50px;
 }
 
-a {
+.navbar a {
 	position: relative;
 	line-height: 2; /*задаём высоту строки*/
 
 }
-a:after {
+.navbar a:after {
 	display: block;
 	position: absolute;
 	left: 20%; /*изменить на right:0;, чтобы изменить направление подчёркивания */
@@ -55,7 +53,7 @@ a:after {
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
 
-a:hover:after{
+.navbar a:hover:after{
 	width: 60%; /*устанавливаем значение 60% чтобы ссылка подчёркивалась не полностью*/
 }
 
