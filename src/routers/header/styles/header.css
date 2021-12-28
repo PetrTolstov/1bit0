@@ -49,6 +49,26 @@ nav{
     border-radius: 50px;
 }
 
+a {
+	position: relative;
+	line-height: 2; /*задаём высоту строки*/
+
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 20%; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #497DE7; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+a:hover:after{
+	width: 60%; /*устанавливаем значение 60% чтобы ссылка подчёркивалась не полностью*/
+}
+
 header div.navEl{
     padding: 20px 20px;
 
