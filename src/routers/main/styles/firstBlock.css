@@ -1,0 +1,26 @@
+.firstBlock{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.firstBlock .textBlock{
+    flex-basis: 60%;
+
+}
+
+.firstBlock Site{
+    flex-basis: 40%;
+}
+
+.firstBlock h1{
+    margin-top: 0;
+    margin-left: 40px;
+    text-align: start;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+

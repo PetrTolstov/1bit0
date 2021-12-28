@@ -1,20 +1,10 @@
-:root{
-    --var-maincolor: #497DE7;
-    --firstShadow : rgba(80, 138, 254, 0.3);
-    --secondShadow : rgba(66, 113, 208, 0.5);
-    --thirdShadow : rgba(66, 113, 208, 0.2);
-    --thouthShadow : rgba(66, 113, 208, 0.2);
-    --fifthShadow : rgba(80, 138, 254, 0.9);
-    --sixthShadow : rgba(66, 113, 208, 0.9);
-
-}
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-
+    margin-bottom: 40px;
 }
 
 .navbar{
@@ -93,3 +83,4 @@ header div{
     -webkit-mask: url("../../../img/logo.svg") no-repeat center;
     mask: url("../../../img/logo.svg") no-repeat center;
 }
+
