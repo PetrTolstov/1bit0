@@ -40,7 +40,7 @@
 
 .firstBlock .links a{
     margin: 30px ;
-
+    line-height: 2; /*задаём высоту строки*/
     font-size: 1.2rem;
     padding: 5px 5%;
     text-decoration: none;
