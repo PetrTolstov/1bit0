@@ -1,11 +1,12 @@
 import logo from "../../img/logo.svg";
 import lang from "./img/lang.svg"
 import "./styles/header.css"
+import 'animate.css';
 
 export default function Header() {
     return (
         <header>
-            <div className={"navbar"}>
+            <div className={"navbar animate__animated animate__fadeInLeft"}>
                 <div className={"navEl"}>
                     <img src={logo} alt={"logo"} />
                 </div>
@@ -19,7 +20,7 @@ export default function Header() {
                 </nav>
             </div>
 
-            <div className={"lang"}>
+            <div className={"lang animate__animated animate__flash"}>
                 <img src={lang} alt={"lang"}/>
             </div>
 
