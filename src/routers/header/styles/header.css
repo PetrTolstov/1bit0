@@ -1,3 +1,14 @@
+:root{
+    --var-maincolor: #497DE7;
+    --firstShadow : rgba(80, 138, 254, 0.3);
+    --secondShadow : rgba(66, 113, 208, 0.5);
+    --thirdShadow : rgba(66, 113, 208, 0.2);
+    --thouthShadow : rgba(66, 113, 208, 0.2);
+    --fifthShadow : rgba(80, 138, 254, 0.9);
+    --sixthShadow : rgba(66, 113, 208, 0.9);
+
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -30,8 +41,11 @@ nav{
 }
 
 .navbar a.active{
-    background: #497DE7;
-    box-shadow: 1px 1px 2px rgba(80, 138, 254, 0.3), -1px -1px 2px rgba(66, 113, 208, 0.5), inset -5px 5px 10px rgba(66, 113, 208, 0.2), inset 5px -5px 10px rgba(66, 113, 208, 0.2), inset -5px -5px 10px rgba(80, 138, 254, 0.9), inset 5px 5px 13px rgba(66, 113, 208, 0.9);
+
+
+    color: #fff;
+    background: var(--var-maincolor);
+    box-shadow: 1px 1px 2px var(--firstShadow), -1px -1px 2px var(--secondShadow ), inset -5px 5px 10px var(--thirdShadow), inset 5px -5px 10px var(--thouthShadow), inset -5px -5px 10px var(--fifthShadow), inset 5px 5px 13px var(--sixthShadow);
     border-radius: 50px;
 }
 
@@ -52,5 +66,10 @@ header div{
     border-radius: 0px 50px 50px 0px;
     background: #262626
 }
-
-
+#logo {
+    background-color: var(--var-maincolor);
+    width: 100px;
+    height: 50px;
+    -webkit-mask: url("../../../img/logo.svg") no-repeat center;
+    mask: url("../../../img/logo.svg") no-repeat center;
+}
