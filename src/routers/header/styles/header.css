@@ -21,6 +21,7 @@ nav{
 
 }
 
+/* Trooman`s code start */
 .navbar a{
     font-size: 1.2rem;
     padding: 5px 5%;
@@ -56,6 +57,7 @@ nav{
 .navbar a:hover:after{
 	width: 60%; /*устанавливаем значение 60% чтобы ссылка подчёркивалась не полностью*/
 }
+/* Trooman`s code end */
 
 header div.navEl{
     padding: 10px 20px;
@@ -82,3 +84,25 @@ header div{
     mask: url("../../../img/logo.svg") no-repeat center;
 }
 
+
+
+/* Trooman`s code start */
+.langsWrapper {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 93px;
+    margin-top: 1px;
+}
+
+.langs {
+    text-transform: uppercase;
+    display: flex;
+    border-radius: 10px 0px 0px 10px;
+    padding: 26.5px 10px;
+}
+
+.langs span {
+    margin-left: 10px;
+}
+/* Trooman`s code end */
