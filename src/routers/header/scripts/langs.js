@@ -3,10 +3,10 @@ window.addEventListener('DOMContentLoaded', () => {
     // let langIcon = document.querySelector(".lang")
     let langs = document.querySelector('.langs')
     let langsWrapper = document.querySelector('.langsWrapper')
-    let switcher = false
 
-    langsWrapper.addEventListener('mouseover', showLangsWrapper)
-    langsWrapper.addEventListener('mouseout', hideLangsWrapper)
+
+    langsWrapper.addEventListener('mouseenter', showLangsWrapper)
+    langsWrapper.addEventListener('mouseleave', hideLangsWrapper)
 
     function showLangsWrapper() {
         langs.style.display = 'block'
@@ -18,5 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function hideLangsWrapper() {
         langs.classList.remove('animate__flipInX') 
         langs.classList.add('animate__flipOutX')
+        window.setTimeout(() => langs.style.display = "none", "750" )
+
     }  
 })
