@@ -60,7 +60,7 @@ nav{
 /* Trooman`s code end */
 
 header div.navEl{
-    padding: 10px 20px;
+    padding: 18px 20px;
 
 }
 
@@ -85,6 +85,9 @@ header div{
 }
 
 
+.navbar{
+    height: 71px;
+}
 
 /* Trooman`s code start */
 .langsWrapper {
