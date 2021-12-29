@@ -91,18 +91,21 @@ header div{
 
 /* Trooman`s code start */
 .langsWrapper {
-    display: none;
+    /* display: none; */
     position: absolute;
+    display: flex;
     right: 0;
-    margin-right: 93px;
+    /* margin-right: 93px; */
     margin-top: 1px;
 }
 
 .langs {
+    display: none;
     text-transform: uppercase;
-    display: flex;
+    /* display: flex; */
+    margin-right: 5px;
     border-radius: 10px 0px 0px 10px;
-    padding: 26.5px 10px;
+    padding: 26.5px 10px;;
 }
 
 .langs span {

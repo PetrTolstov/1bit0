@@ -9,12 +9,18 @@ export default function Header() {
     return (
         <header>
             {/* Trooman`s code start */}
-            <section className="langsWrapper animate__animated">
-                <div className="langs">
+            <section className="langsWrapper">
+                <div className="langs animate__animated">
                     <span>ru</span>
                     <span>eng</span>
                     <span>est</span>
                 </div>
+                <div className={"lang animate__animated"}>
+                <div>
+                    <img src={lang} alt={"lang"}/>
+                </div>
+            </div>
+            
             </section>
             {/* Trooman`s code end */}
             <div className={"navbar animate__animated animate__fadeInLeft"}>
@@ -29,12 +35,6 @@ export default function Header() {
                     <a href={"#"} id={"aboutus"}  className={"navA"}>О нас</a>
                     <a href={"#"} id={"curses"}  className={"navA"}>Курсы</a>
                 </nav>
-            </div>
-
-            <div className={"lang animate__animated animate__fadeInRight"}>
-                <div>
-                    <img src={lang} alt={"lang"}/>
-                </div>
             </div>
 
         </header>

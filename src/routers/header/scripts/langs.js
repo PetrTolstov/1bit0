@@ -1,19 +1,22 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-    let langIcon = document.querySelector(".lang")
+    // let langIcon = document.querySelector(".lang")
+    let langs = document.querySelector('.langs')
     let langsWrapper = document.querySelector('.langsWrapper')
+    let switcher = false
 
-    langIcon.addEventListener('mouseover', showLangsWrapper)
-    langIcon.addEventListener('mouseout', hideLangsWrapper)
+    langsWrapper.addEventListener('mouseover', showLangsWrapper)
+    langsWrapper.addEventListener('mouseout', hideLangsWrapper)
 
     function showLangsWrapper() {
-        langsWrapper.style.display = 'block'
-        langsWrapper.classList.remove('animate__flipOutX')
-        langsWrapper.classList.add('animate__flipInX') 
+        langs.style.display = 'block'
+        langs.classList.remove('animate__flipOutX')
+        langs.classList.add('animate__flipInX') 
+
     }
 
     function hideLangsWrapper() {
-        langsWrapper.classList.remove('animate__flipInX')
-        langsWrapper.classList.add('animate__flipOutX') 
-    }
+        langs.classList.remove('animate__flipInX') 
+        langs.classList.add('animate__flipOutX')
+    }  
 })
