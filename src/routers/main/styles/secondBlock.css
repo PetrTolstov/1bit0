@@ -1,3 +1,14 @@
-.animatedBlock{
-
+.secondBlock .textBlock{
+    height: 400px;
+    background: #3F71D4;
+    padding: 40px;
+    z-index: 1;
 }
+
+.secondBlock .animatedBlock{
+
+    margin-bottom: -200px;
+    margin-right: 200px;
+    z-index: 0;
+}
+

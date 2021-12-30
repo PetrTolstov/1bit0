@@ -1,6 +1,7 @@
 import "./styles/main.css"
 import "./styles/secondBlock.css"
 import Lines from "./img/Lines";
+import Laptop from "./img/Laptop";
 
 export default function SecondBlock() {
     return (
@@ -9,7 +10,9 @@ export default function SecondBlock() {
                 <Lines/>
             </div>
             <div className={"textBlock"}>
-
+                <div className={"laptop"}>
+                    <Laptop/>
+                </div>
             </div>
         </section>
  )
