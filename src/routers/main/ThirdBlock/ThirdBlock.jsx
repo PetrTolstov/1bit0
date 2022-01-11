@@ -13,19 +13,19 @@ export default function ThirdBlock() {
             <div className={"lineOfAdvantage"}>
                 <img src={qualityIcon} alt={"qualityIcon"} />
                 <AdvantagesText heading={"Качество"}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat purus vitae justo dignissim tincidunt. Morbi
+                    Правильно функционирующий и настроенный на работоспособность веб-сайт
                 </AdvantagesText>
             </div>
             <div className={"lineOfAdvantage"}>
                 <AdvantagesText heading={"Безопасность"} side={"leftHeading"}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat purus vitae justo dignissim tincidunt. Morbi
+                    ...ведь мы за безопасный сайт
                 </AdvantagesText>
                 <img src={securityIcon} alt={"qualityIcon"}/>
             </div>
             <div className={"lineOfAdvantage"}>
                 <img src={estheticIcon} alt={"qualityIcon"}/>
                 <AdvantagesText heading={"Эстетику"}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat purus vitae justo dignissim tincidunt. Morbi
+                    Красивую визуальную составляющую Вашего веб-приложения
                 </AdvantagesText>
             </div>
         </section>
