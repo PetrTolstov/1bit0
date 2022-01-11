@@ -1,6 +1,6 @@
 import logo from "../../img/logo.svg";
-import lang from "./img/lang.svg";
-import "./styles/header.css";
+import lang from "../../img/lang.svg";
+import "./header.css";
 import 'animate.css';
 import './scripts/headerscript.js';
 import './scripts/langs.js';

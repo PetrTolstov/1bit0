@@ -1,0 +1,32 @@
+.secondBlock .textBlock{
+    height: 400px;
+    background: #3F71D4;
+    padding: 40px;
+    z-index: 1;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.secondBlock .animatedBlock{
+
+    margin-bottom: -200px;
+    margin-left: -800px;
+    z-index: 0;
+}
+
+
+.secondBlock .textBlock .textBlockBlock{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondBlock .textBlock .textBlockBlock p{
+    text-align: start;
+    font-weight: lighter;
+}
